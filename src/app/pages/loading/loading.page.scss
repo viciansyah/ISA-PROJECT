@@ -1,0 +1,50 @@
+:root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+  }
+  .swiper-slide {
+    display: block;
+  }
+  ion-slide > h2 {
+    margin-top: 1rem;
+  }
+  ion-slide > img {
+    margin: center;
+    background-position: relative;
+    z-index: 1;
+  }
+  img-rounded {
+    background: 100%;
+    max-width: 200px;
+    width: 200px;
+  }
+  .logo {
+    top: 150px;
+    position: relative;
+    height: 80px;
+    padding: 10px;
+    margin: 5px;
+    line-height: 20px;
+  }
+  .gambar {
+    top: 220px;
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    line-height: 20px;
+  }
+  
+  section {
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+    
+  }
+  section:not(.full-width),
+  .full-width > header {
+    padding: 0 10px;
+  }
+
+  
+
+  
